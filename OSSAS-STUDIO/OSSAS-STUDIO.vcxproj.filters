@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{41265af3-3b5e-4522-853a-caea7331e6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState">
+      <UniqueIdentifier>{1006d1b8-c678-4824-930b-c537f273425f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\Level1">
+      <UniqueIdentifier>{588c53f3-5756-4b9c-88e3-ddf36a054595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{ace2a7be-8d7f-46b0-8431-9b47eef4a8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState">
+      <UniqueIdentifier>{086e1dea-ad38-4cdb-8176-8e94ff3d3fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Level1">
+      <UniqueIdentifier>{01fdea36-8046-4c1f-aafd-2acf1c17a86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{5e789ef9-e79e-4c1b-8d18-6aaadcbee951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{ee4cb533-4ef6-4376-bb01-e27e2c1d304b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\MainMenu">
+      <UniqueIdentifier>{5f34f212-9471-4c4c-897c-ba403f77396a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\MainMenu">
+      <UniqueIdentifier>{8fdf4537-f96e-46a7-af65-6f1d2a257a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\GameObj">
+      <UniqueIdentifier>{972bc211-895e-4049-92d2-aa97287edb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\GameObj">
+      <UniqueIdentifier>{c306beac-9fe9-426b-99fc-de66ecac4f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Background">
+      <UniqueIdentifier>{6c938772-9801-4364-a753-edf4c32af4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Buttons">
+      <UniqueIdentifier>{a5448e10-2360-4bcb-8483-10c7db2ed734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Credits">
+      <UniqueIdentifier>{3fd8de27-ec28-4f89-97af-512834e8f090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\MainMenu">
+      <UniqueIdentifier>{73350197-a7a1-4a68-b12e-41562eb716e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Minions">
+      <UniqueIdentifier>{8e1a70d6-bbed-47e4-b35c-c99514ebd6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Pause">
+      <UniqueIdentifier>{1eb56303-4de3-4c60-90b1-0e17fb3ab748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Player">
+      <UniqueIdentifier>{0bcc1dbc-e368-4dde-bf74-39a2381ed988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Tower">
+      <UniqueIdentifier>{74f4e99b-28ce-4000-ba2f-5cdfcb9a216b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VictoryDefeat">
+      <UniqueIdentifier>{920852c4-1d62-4540-b92d-e04a4597b13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Attack">
+      <UniqueIdentifier>{d4bc5694-10e6-4786-b9d4-5dd11c97a325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper">
+      <UniqueIdentifier>{bb3cfd6d-f6e1-4869-a0e2-bc009fbcd0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{c2fc4611-3bb4-4b9a-b45d-2c6886652f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Victory">
+      <UniqueIdentifier>{33db2748-6550-4972-85b5-8b1f4fa094a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Defeat">
+      <UniqueIdentifier>{4327fa6b-2896-484c-a76e-4b926f16dce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Victory">
+      <UniqueIdentifier>{1244a2a2-0961-4f3b-8e5b-85f415977f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defeat">
+      <UniqueIdentifier>{4e352668-2664-4145-b762-b25cd89ad5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Wallpaper">
+      <UniqueIdentifier>{759cd895-0ad6-43fc-8bdd-4bc672edee9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{ab5147d3-9230-445e-b0ac-2b29c9e08dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{087d6931-a3e8-4faa-9298-111ec99afeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Boss">
+      <UniqueIdentifier>{a51c418b-2499-489d-827e-fe59e3bc22c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\fx">
+      <UniqueIdentifier>{44cc58fe-4b4b-4f65-b046-7498f4bf4b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\Level1\GameFlow">
+      <UniqueIdentifier>{6637e1ef-be85-484a-990c-93b2c76d7d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Level1\GameFlow">
+      <UniqueIdentifier>{81ee50ab-fe67-4137-8446-5f30babc8282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{413b97ea-6b60-4040-8990-66a8098609f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{192fba4b-a8e5-4b95-8f04-5ce41bc56baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Audio">
+      <UniqueIdentifier>{ce512607-724b-4b60-8448-d669f675b556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Boss">
+      <UniqueIdentifier>{c18f647e-dc70-4a3d-b115-784ef6cc9293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\DIgipen">
+      <UniqueIdentifier>{eaa70ecb-e2b1-4036-a32e-7e4cc9b4691e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Credits">
+      <UniqueIdentifier>{14f3d9bd-61cc-4ac4-a4ef-f32c0d5540c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\Credits">
+      <UniqueIdentifier>{64f2c0ad-52d7-4fed-be2a-04cc7ccb5410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{74d2d2b1-b20e-47d8-b269-067a38bda0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Instructions">
+      <UniqueIdentifier>{7dcdf729-d765-4bb2-93f1-4732d2f804fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\Instructions">
+      <UniqueIdentifier>{92d675f3-a187-4cb8-8337-d8c0da75f15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Instructions">
+      <UniqueIdentifier>{3c2b7d71-9b28-47e3-b5ab-4888b9166a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI\Tutorial">
+      <UniqueIdentifier>{1a01fae1-7412-4a73-a274-e29037cc57ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Options">
+      <UniqueIdentifier>{dc625ad0-a0e1-4ddf-8253-ff156ee7ab7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\Options">
+      <UniqueIdentifier>{440f4993-05b0-40c6-aeb7-dcf82e65ed24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Options">
+      <UniqueIdentifier>{406eb192-c3bf-4b26-8f8e-2b9eba2aa6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameState\Precredits">
+      <UniqueIdentifier>{e93dd7c4-8c1a-4c25-8b72-33d703cd9c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameState\Precredits">
+      <UniqueIdentifier>{4c8d05a0-56bd-4194-b950-1ad15aa3e831}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Collision\Collision.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Level1\Level1.h">
+      <Filter>Header Files\GameState\Level1</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\GameStateList.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\GameStateMgr.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\MainMenu\MainMenu.h">
+      <Filter>Header Files\GameState\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Player\Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\GameObj\GameObj.h">
+      <Filter>Header Files\GameState\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Helper\Helper.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Victory\Victory.h">
+      <Filter>Header Files\Victory</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Defeat\Defeat.h">
+      <Filter>Header Files\Defeat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Wallpaper\wallpaper.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Level1\GameFlow\Gameflow.h">
+      <Filter>Header Files\GameState\Level1\GameFlow</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Audio\AudioManager.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Global.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\UI\ui.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Boss\boss.h">
+      <Filter>Header Files\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\UI\tutorial.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Credits\Credits.h">
+      <Filter>Header Files\GameState\Credits</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Instructions\Instructions.h">
+      <Filter>Header Files\GameState\Instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Options\Options.h">
+      <Filter>Header Files\GameState\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\GameState\Precredits\Precredits.h">
+      <Filter>Header Files\GameState\Precredits</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Collision\Collision.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\Level1\Level1.cpp">
+      <Filter>Source Files\GameState\Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\GameStateMgr.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\MainMenu\MainMenu.cpp">
+      <Filter>Source Files\GameState\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\GameObj\GameObj.cpp">
+      <Filter>Source Files\GameState\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Helper\Helper.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Victory\Victory.cpp">
+      <Filter>Source Files\Victory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Defeat\Defeat.cpp">
+      <Filter>Source Files\Defeat</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\wallpaper\wallpaper.cpp">
+      <Filter>Source Files\GameState\Wallpaper</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\ui.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\Level1\GameFlow\GameFlow.cpp">
+      <Filter>Source Files\GameState\Level1\GameFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Boss\boss.cpp">
+      <Filter>Source Files\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioManager.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\tutorial.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\Credits\Credits.cpp">
+      <Filter>Source Files\GameState\Credits</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\Instructions\Instructions.cpp">
+      <Filter>Source Files\GameState\Instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\Options\Options.cpp">
+      <Filter>Source Files\GameState\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState\Precredits\Precredits.cpp">
+      <Filter>Source Files\GameState\Precredits</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Background\level1_bg.jpg">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Resources\Background\level2_bg.jpg">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Resources\Background\Victory_wButtons.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button1.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button2.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button3.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Credits\bird wars-last flight_creditspg1.png">
+      <Filter>Resource Files\Credits</Filter>
+    </Image>
+    <Image Include="Resources\Credits\bird wars-last flight_creditspg2.png">
+      <Filter>Resource Files\Credits</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_credits.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_credits_greyed.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_option.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_option_greyed.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_play.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_play_greyed.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\Minions\DuckMinionFrame1.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\DuckMinionFrame2.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\DuckMinionFrame3.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\OstrichMinionFrame1.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\OstrichMinionFrame2.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\OstrichMinionFrame3.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\PenguinMinionFrame1.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\PenguinMinionFrame2.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\PenguinMinionFrame3.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Pause\bird wars-last flight_menubutton_greyed.png">
+      <Filter>Resource Files\Pause</Filter>
+    </Image>
+    <Image Include="Resources\Pause\bird wars-last flight_pause.png">
+      <Filter>Resource Files\Pause</Filter>
+    </Image>
+    <Image Include="Resources\Pause\bird wars-last flight_resumebutton_greyed.png">
+      <Filter>Resource Files\Pause</Filter>
+    </Image>
+    <Image Include="Resources\Player\PlayerFrame1.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Resources\Player\PlayerFrame2.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Resources\Player\PlayerFrame3.png">
+      <Filter>Resource Files\Player</Filter>
+    </Image>
+    <Image Include="Resources\Tower\GameTower.png">
+      <Filter>Resource Files\Tower</Filter>
+    </Image>
+    <Image Include="Resources\VictoryDefeat\fail.jpg">
+      <Filter>Resource Files\VictoryDefeat</Filter>
+    </Image>
+    <Image Include="Resources\VictoryDefeat\menu_Button.png">
+      <Filter>Resource Files\VictoryDefeat</Filter>
+    </Image>
+    <Image Include="Resources\VictoryDefeat\restart_button.png">
+      <Filter>Resource Files\VictoryDefeat</Filter>
+    </Image>
+    <Image Include="Resources\VictoryDefeat\victory.jpg">
+      <Filter>Resource Files\VictoryDefeat</Filter>
+    </Image>
+    <Image Include="Resources\VictoryDefeat\Victory_wButtons.png">
+      <Filter>Resource Files\VictoryDefeat</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\mainMenu.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\Attack\aimbox.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Attack\basicattack.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Attack\egg.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Minions\tombstone.PNG">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\Minions\Miner.png">
+      <Filter>Resource Files\Minions</Filter>
+    </Image>
+    <Image Include="Resources\fx\explosion.png">
+      <Filter>Resource Files\fx</Filter>
+    </Image>
+    <Image Include="Resources\fx\feather.png">
+      <Filter>Resource Files\fx</Filter>
+    </Image>
+    <Image Include="Resources\Attack\regenshield.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Background\LVL1Background.png">
+      <Filter>Resource Files\Background</Filter>
+    </Image>
+    <Image Include="Resources\Digipen\DigiPen.png">
+      <Filter>Resource Files\DIgipen</Filter>
+    </Image>
+    <Image Include="Resources\Credits\leftarrow.png">
+      <Filter>Resource Files\Credits</Filter>
+    </Image>
+    <Image Include="Resources\Credits\rightarrow.png">
+      <Filter>Resource Files\Credits</Filter>
+    </Image>
+    <Image Include="Resources\Attack\basicattack1.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Attack\basicattack2.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Attack\basicattack3.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\Attack\basicattack4.png">
+      <Filter>Resource Files\Attack</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\Button_instruction_greyed.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\UI\button_j.PNG">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Resources\UI\button_k.png">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Resources\UI\button_l.png">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Resources\UI\healthbar.png">
+      <Filter>Resource Files\UI</Filter>
+    </Image>
+    <Image Include="Resources\Instructions\instructions_page.png">
+      <Filter>Resource Files\Instructions</Filter>
+    </Image>
+    <Image Include="Resources\Instructions\leftbutton.png">
+      <Filter>Resource Files\Instructions</Filter>
+    </Image>
+    <Image Include="Resources\Credits\leftarrow_hover.png">
+      <Filter>Resource Files\Credits</Filter>
+    </Image>
+    <Image Include="Resources\Credits\rightarrow_hover.png">
+      <Filter>Resource Files\Credits</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\adv.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\basic.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\regen.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide1.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide2.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide3.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide4.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide5.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide6.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\UI\Tutorial\slide7.png">
+      <Filter>Resource Files\UI\Tutorial</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button1p.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button2p.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button3p.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button4.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\button4p.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\leftArrowNotPressed.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\Buttons\rightArrowNotPressed.png">
+      <Filter>Resource Files\Buttons</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\quit_confirmation.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\no.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\yes.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\Options\option.png">
+      <Filter>Resource Files\Options</Filter>
+    </Image>
+    <Image Include="Resources\Options\checkbox.png">
+      <Filter>Resource Files\Options</Filter>
+    </Image>
+    <Image Include="Resources\Options\tickOptionsSymbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\level1_button.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\level2_button.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\levelselect.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\goback.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+    <Image Include="Resources\Pause\confirmation.png">
+      <Filter>Resource Files\Pause</Filter>
+    </Image>
+    <Image Include="Resources\Pause\no.png">
+      <Filter>Resource Files\Pause</Filter>
+    </Image>
+    <Image Include="Resources\Pause\yes.png">
+      <Filter>Resource Files\Pause</Filter>
+    </Image>
+    <Image Include="Resources\MainMenu\locked.png">
+      <Filter>Resource Files\MainMenu</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minions\DuckMinion.psd">
+      <Filter>Resource Files\Minions</Filter>
+    </None>
+    <None Include="Resources\Minions\OstrichMinion.psd">
+      <Filter>Resource Files\Minions</Filter>
+    </None>
+    <None Include="Resources\Minions\PenguinMinion.psd">
+      <Filter>Resource Files\Minions</Filter>
+    </None>
+    <None Include="Resources\Player\Player.psd">
+      <Filter>Resource Files\Player</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Audio\ChickenNoise.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\VictoryBackground.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\WalkingSound.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\LVL1Background.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\MMBackground.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\EnemyDies.wav">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+    <Media Include="Resources\Audio\ShootingSound.mp3">
+      <Filter>Resource Files\Audio</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

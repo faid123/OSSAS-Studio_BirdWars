@@ -1,0 +1,15 @@
+Game Name: Bird Wars - Last Flight
+Genre: Action, Strategy
+
+Description: Help General Cockadoodle to fight
+the invading forces seeking to steal the eggs of innocent
+bird kind everywhere. Bird Wars is an action strategy game
+where players have to overwhelm the enemy by managing 
+troops and resources to destroy the enemy tower in order to
+achieve victory. It is a strategy game where you have to outsmart
+the enemy's AI.
+
+Nur Syazwan Bin Syamsuddin - Producer, Boss AI and UI Designer
+Shaikh Faid Bin Omar - Technical Director, Player logic and UI Art
+Ang Pheng Siang - Minions AI, Gameflow Concept
+Ryan Ong Kok Chin - Game Designer, Music, Game concept Art

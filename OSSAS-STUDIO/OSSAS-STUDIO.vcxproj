@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Audio\AudioManager.h" />
+    <ClInclude Include="Headers\Boss\boss.h" />
+    <ClInclude Include="Headers\Collision\Collision.h" />
+    <ClInclude Include="Headers\Defeat\Defeat.h" />
+    <ClInclude Include="Headers\framework.h" />
+    <ClInclude Include="Headers\GameState\Credits\Credits.h" />
+    <ClInclude Include="Headers\GameState\GameStateList.h" />
+    <ClInclude Include="Headers\GameState\GameStateMgr.h" />
+    <ClInclude Include="Headers\GameState\Global.h" />
+    <ClInclude Include="Headers\GameState\Instructions\Instructions.h" />
+    <ClInclude Include="Headers\GameState\Level1\GameFlow\Gameflow.h" />
+    <ClInclude Include="Headers\GameState\Level1\Level1.h" />
+    <ClInclude Include="Headers\GameState\MainMenu\MainMenu.h" />
+    <ClInclude Include="Headers\GameState\Options\Options.h" />
+    <ClInclude Include="Headers\GameState\Precredits\Precredits.h" />
+    <ClInclude Include="Headers\GameState\Wallpaper\wallpaper.h" />
+    <ClInclude Include="Headers\Helper\Helper.h" />
+    <ClInclude Include="Headers\GameState\GameObj\GameObj.h" />
+    <ClInclude Include="Headers\Player\Player.h" />
+    <ClInclude Include="Headers\Resource.h" />
+    <ClInclude Include="Headers\targetver.h" />
+    <ClInclude Include="Headers\UI\tutorial.h" />
+    <ClInclude Include="Headers\UI\ui.h" />
+    <ClInclude Include="Headers\Victory\Victory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Audio\AudioManager.cpp" />
+    <ClCompile Include="Source\Boss\boss.cpp" />
+    <ClCompile Include="Source\Collision\Collision.cpp" />
+    <ClCompile Include="Source\Defeat\Defeat.cpp" />
+    <ClCompile Include="Source\GameState\Credits\Credits.cpp" />
+    <ClCompile Include="Source\GameState\GameObj\GameObj.cpp" />
+    <ClCompile Include="Source\GameState\GameStateMgr.cpp" />
+    <ClCompile Include="Source\GameState\Instructions\Instructions.cpp" />
+    <ClCompile Include="Source\GameState\Level1\GameFlow\GameFlow.cpp" />
+    <ClCompile Include="Source\GameState\Level1\Level1.cpp" />
+    <ClCompile Include="Source\GameState\MainMenu\MainMenu.cpp" />
+    <ClCompile Include="Source\GameState\Options\Options.cpp" />
+    <ClCompile Include="Source\GameState\Precredits\Precredits.cpp" />
+    <ClCompile Include="Source\GameState\wallpaper\wallpaper.cpp" />
+    <ClCompile Include="Source\Helper\Helper.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\UI\tutorial.cpp" />
+    <ClCompile Include="Source\UI\ui.cpp" />
+    <ClCompile Include="Source\Player\Player.cpp" />
+    <ClCompile Include="Source\Victory\Victory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Attack\aimbox.png" />
+    <Image Include="Resources\Attack\basicattack.png" />
+    <Image Include="Resources\Attack\basicattack1.png" />
+    <Image Include="Resources\Attack\basicattack2.png" />
+    <Image Include="Resources\Attack\basicattack3.png" />
+    <Image Include="Resources\Attack\basicattack4.png" />
+    <Image Include="Resources\Attack\egg.png" />
+    <Image Include="Resources\Attack\regenshield.png" />
+    <Image Include="Resources\Background\level1_bg.jpg" />
+    <Image Include="Resources\Background\level2_bg.jpg" />
+    <Image Include="Resources\Background\LVL1Background.png" />
+    <Image Include="Resources\Background\Victory_wButtons.png" />
+    <Image Include="Resources\Buttons\button1.png" />
+    <Image Include="Resources\Buttons\button1p.png" />
+    <Image Include="Resources\Buttons\button2.png" />
+    <Image Include="Resources\Buttons\button2p.png" />
+    <Image Include="Resources\Buttons\button3.png" />
+    <Image Include="Resources\Buttons\button3p.png" />
+    <Image Include="Resources\Buttons\button4.png" />
+    <Image Include="Resources\Buttons\button4p.png" />
+    <Image Include="Resources\Buttons\leftArrowNotPressed.png" />
+    <Image Include="Resources\Buttons\rightArrowNotPressed.png" />
+    <Image Include="Resources\Credits\bird wars-last flight_creditspg1.png" />
+    <Image Include="Resources\Credits\bird wars-last flight_creditspg2.png" />
+    <Image Include="Resources\Credits\leftarrow.png" />
+    <Image Include="Resources\Credits\leftarrow_hover.png" />
+    <Image Include="Resources\Credits\rightarrow.png" />
+    <Image Include="Resources\Credits\rightarrow_hover.png" />
+    <Image Include="Resources\Digipen\DigiPen.png" />
+    <Image Include="Resources\fx\explosion.png" />
+    <Image Include="Resources\fx\feather.png" />
+    <Image Include="Resources\Instructions\instructions_page.png" />
+    <Image Include="Resources\Instructions\leftbutton.png" />
+    <Image Include="Resources\MainMenu\Button_instruction_greyed.png" />
+    <Image Include="Resources\MainMenu\goback.png" />
+    <Image Include="Resources\MainMenu\level1_button.png" />
+    <Image Include="Resources\MainMenu\level2_button.png" />
+    <Image Include="Resources\MainMenu\levelselect.png" />
+    <Image Include="Resources\MainMenu\locked.png" />
+    <Image Include="Resources\MainMenu\mainMenu.png" />
+    <Image Include="Resources\MainMenu\Button_credits.png" />
+    <Image Include="Resources\MainMenu\Button_credits_greyed.png" />
+    <Image Include="Resources\MainMenu\Button_option.png" />
+    <Image Include="Resources\MainMenu\Button_option_greyed.png" />
+    <Image Include="Resources\MainMenu\Button_play.png" />
+    <Image Include="Resources\MainMenu\Button_play_greyed.png" />
+    <Image Include="Resources\MainMenu\no.png" />
+    <Image Include="Resources\MainMenu\quit_confirmation.png" />
+    <Image Include="Resources\MainMenu\yes.png" />
+    <Image Include="Resources\Minions\DuckMinionFrame1.png" />
+    <Image Include="Resources\Minions\DuckMinionFrame2.png" />
+    <Image Include="Resources\Minions\DuckMinionFrame3.png" />
+    <Image Include="Resources\Minions\Miner.png" />
+    <Image Include="Resources\Minions\OstrichMinionFrame1.png" />
+    <Image Include="Resources\Minions\OstrichMinionFrame2.png" />
+    <Image Include="Resources\Minions\OstrichMinionFrame3.png" />
+    <Image Include="Resources\Minions\PenguinMinionFrame1.png" />
+    <Image Include="Resources\Minions\PenguinMinionFrame2.png" />
+    <Image Include="Resources\Minions\PenguinMinionFrame3.png" />
+    <Image Include="Resources\Minions\tombstone.PNG" />
+    <Image Include="Resources\Options\checkbox.png" />
+    <Image Include="Resources\Options\option.png" />
+    <Image Include="Resources\Options\tickOptionsSymbol.png" />
+    <Image Include="Resources\Pause\bird wars-last flight_menubutton_greyed.png" />
+    <Image Include="Resources\Pause\bird wars-last flight_pause.png" />
+    <Image Include="Resources\Pause\bird wars-last flight_resumebutton_greyed.png" />
+    <Image Include="Resources\Pause\confirmation.png" />
+    <Image Include="Resources\Pause\no.png" />
+    <Image Include="Resources\Pause\yes.png" />
+    <Image Include="Resources\Player\PlayerFrame1.png" />
+    <Image Include="Resources\Player\PlayerFrame2.png" />
+    <Image Include="Resources\Player\PlayerFrame3.png" />
+    <Image Include="Resources\Tower\GameTower.png" />
+    <Image Include="Resources\UI\button_j.PNG" />
+    <Image Include="Resources\UI\button_k.png" />
+    <Image Include="Resources\UI\button_l.png" />
+    <Image Include="Resources\UI\healthbar.png" />
+    <Image Include="Resources\UI\Tutorial\adv.png" />
+    <Image Include="Resources\UI\Tutorial\basic.png" />
+    <Image Include="Resources\UI\Tutorial\regen.png" />
+    <Image Include="Resources\UI\Tutorial\slide1.png" />
+    <Image Include="Resources\UI\Tutorial\slide2.png" />
+    <Image Include="Resources\UI\Tutorial\slide3.png" />
+    <Image Include="Resources\UI\Tutorial\slide4.png" />
+    <Image Include="Resources\UI\Tutorial\slide5.png" />
+    <Image Include="Resources\UI\Tutorial\slide6.png" />
+    <Image Include="Resources\UI\Tutorial\slide7.png" />
+    <Image Include="Resources\VictoryDefeat\fail.jpg" />
+    <Image Include="Resources\VictoryDefeat\menu_Button.png" />
+    <Image Include="Resources\VictoryDefeat\restart_button.png" />
+    <Image Include="Resources\VictoryDefeat\victory.jpg" />
+    <Image Include="Resources\VictoryDefeat\Victory_wButtons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minions\DuckMinion.psd" />
+    <None Include="Resources\Minions\OstrichMinion.psd" />
+    <None Include="Resources\Minions\PenguinMinion.psd" />
+    <None Include="Resources\Player\Player.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\Audio\ChickenNoise.wav" />
+    <Media Include="Resources\Audio\EnemyDies.wav" />
+    <Media Include="Resources\Audio\LVL1Background.wav" />
+    <Media Include="Resources\Audio\MMBackground.wav" />
+    <Media Include="Resources\Audio\ShootingSound.mp3" />
+    <Media Include="Resources\Audio\VictoryBackground.wav" />
+    <Media Include="Resources\Audio\WalkingSound.wav" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{FAC6FF89-FC23-42CD-8B60-5A61CE4182EC}</ProjectGuid>
+    <RootNamespace>OSSASSTUDIO</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)Extern\AlphaEngine_V3.08\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Extern\AlphaEngine_V3.08\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)Extern\AlphaEngine_V3.08\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Extern\AlphaEngine_V3.08\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Headers;$(SolutionDir)Extern\AlphaEngine_V3.08\include;$(ProjectDir)Resources;$(SolutionDir)Extern\fmod\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Alpha_EngineD.lib;fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Extern\fmod\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Extern\AlphaEngine_V3.08\lib\Alpha_Engine.dll" "$(TargetDir)Alpha_Engine.dll" /Y
+copy "$(SolutionDir)Extern\AlphaEngine_V3.08\lib\Alpha_EngineD.dll" "$(TargetDir)Alpha_EngineD.dll" /Y
+copy "$(SolutionDir)Extern\AlphaEngine_V3.08\lib\freetype.dll" "$(TargetDir)freetype.dll" /Y
+copy "$(SolutionDir)Extern\FMOD\lib\fmod.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)Extern\FMOD\lib\fmodL.dll" "$(TargetDir)fmodL.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Headers;$(SolutionDir)Extern\AlphaEngine_V3.08\include;$(ProjectDir)Resources;$(SolutionDir)Extern\fmod\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Alpha_EngineD.lib;fmod_vc.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)Extern\fmod\lib</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Extern\AlphaEngine_V3.08\lib\Alpha_Engine.dll" "$(TargetDir)Alpha_Engine.dll" /Y
+copy "$(SolutionDir)Extern\AlphaEngine_V3.08\lib\Alpha_EngineD.dll" "$(TargetDir)Alpha_EngineD.dll" /Y
+copy "$(SolutionDir)Extern\AlphaEngine_V3.08\lib\freetype.dll" "$(TargetDir)freetype.dll" /Y
+copy "$(SolutionDir)Extern\FMOD\lib\fmod.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)Extern\FMOD\lib\fmodL.dll" "$(TargetDir)fmodL.dll" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
